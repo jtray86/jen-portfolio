@@ -9,14 +9,16 @@ import Portfolio from "./Portfolio";
 import About from "./About";
 import Header from "./Header";
 import styled from "styled-components";
+import './App.css';
+
 
 
 
  function App() {
 
-
   return (
-    <Router>
+    
+    <Router >
        <Header/>
         <Switch>
           <Route path="/about">
@@ -31,6 +33,7 @@ import styled from "styled-components";
         </Switch>
      
     </Router>
+ 
   );
 }
 

@@ -7,7 +7,7 @@ function Header() {
 
     const Siteheader =styled.header`
     overflow: hidden;
-    background-color: #001e57;
+    background-color: rgb(1, 20, 43);
     padding: 10px 10px;
     color: #78ebbd
     `
@@ -26,6 +26,7 @@ function Header() {
     const H1 = styled.h1`
     display: inline;
     padding-left: 4rem
+    
 
     `
     const Link = styled.a`

@@ -8,6 +8,7 @@ import Home from "./Home";
 import Portfolio from "./Portfolio";
 import About from "./About";
 import Header from "./Header";
+import Contact from "./Contact";
 import styled from "styled-components";
 import './App.css';
 
@@ -29,6 +30,9 @@ import './App.css';
           </Route>
           <Route exact path="/">
             <Home />
+          </Route>
+          <Route exact path="/contact">
+            <Contact />
           </Route>
         </Switch>
      

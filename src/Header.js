@@ -56,6 +56,9 @@ function Header() {
                 <Linav>
                     <Link onClick={() =>history.push("/portfolio")}>Portfolio</Link>
                 </Linav>
+                <Linav>
+                    <Link onClick={() =>history.push("/contact")}>Contact</Link>
+                </Linav>
                 </Ulnav>
            
         </Siteheader> 

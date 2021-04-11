@@ -34,12 +34,31 @@ function Header() {
     text-decoration: none;
     padding-top: .5rem;
     
-
-    :hover {
+    position: relative;
+    z-index: 1;
+    
+    :after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        transform: scaleY(0);
+        transform-origin: bottom center;
         background-color: #78ebbd;
-        color: black;
-       
-      }
+        
+        z-index: -1;
+        transition: transform 0.3s;
+    }
+
+    :hover::after {
+        transform: scaleY(1);
+    }
+    
+    :hover{
+        color: rgb(1, 27, 59)
+    }
     `
 
     return (

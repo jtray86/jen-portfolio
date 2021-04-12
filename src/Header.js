@@ -4,8 +4,35 @@ import styled from "styled-components";
 
 function Header() {
     const history = useHistory()
+    
 
-    const Siteheader =styled.header`
+
+    return (
+        <Siteheader> 
+            <H1>Jen Tracy</H1>
+           
+                <Ulnav>
+                {/* <Linav>
+                    <Link onClick={() =>history.push("/")}> Home </Link>
+                </Linav> */}
+                <Linav>
+                    <Link onClick={() =>history.push("/about")}>About</Link>
+                </Linav>
+                <Linav>
+                    <Link onClick={() =>history.push("/portfolio")}>Portfolio</Link>
+                </Linav>
+                <Linav>
+                    <Link onClick={() =>history.push("/contact")}>Contact</Link>
+                </Linav>
+                </Ulnav>
+           
+        </Siteheader> 
+    )
+  }
+
+export default Header 
+
+const Siteheader =styled.header`
     overflow: hidden;
     background-color: rgb(1, 20, 43);
     padding: 10px 10px;
@@ -60,28 +87,3 @@ function Header() {
         color: rgb(1, 27, 59)
     }
     `
-
-    return (
-        <Siteheader> 
-            <H1>Jen Tracy</H1>
-           
-                <Ulnav>
-                <Linav>
-                    <Link onClick={() =>history.push("/")}> Home </Link>
-                </Linav>
-                <Linav>
-                    <Link onClick={() =>history.push("/about")}>About</Link>
-                </Linav>
-                <Linav>
-                    <Link onClick={() =>history.push("/portfolio")}>Portfolio</Link>
-                </Linav>
-                <Linav>
-                    <Link onClick={() =>history.push("/contact")}>Contact</Link>
-                </Linav>
-                </Ulnav>
-           
-        </Siteheader> 
-    )
-  }
-
-export default Header 

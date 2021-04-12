@@ -18,7 +18,6 @@ function About() {
         
         background-color: rgb(1, 20, 43);
         padding: 20px;
-        font-size: 30px;
         text-align: center;
         color: #78ebbd;
     
@@ -33,8 +32,8 @@ function About() {
     return( 
     <Container>
         <Grid>
-            <h4>Software Engineer</h4>
-            <p></p>
+            <h2>Software Engineer</h2>
+            <p style={{color: '#d7f7ed'}}>Full Stack Software developer with experience in Ruby on Rails, React, and JavaScript with a Theatre background. Possess strong skills in team collaboration, critical thinking, and creative problem solving.</p>
         </Grid>
         <Grid>
             <Image src= {PorofilePic}/>

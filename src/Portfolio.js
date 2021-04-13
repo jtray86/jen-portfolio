@@ -14,7 +14,7 @@ function Portfolio() {
                         <h3 style={{display: "inline"}}>MyFI</h3>
                         <Language>React.js</Language>
                         <Language>Rails API</Language>
-                        <p>A 8inacial app to help people in debt plan to get out of debt and become Finacialy independent.</p>
+                        <p>A financial app to help people in debt plan to get out of debt and become financially independent.</p>
                         <RepoLink href= 'https://github.com/jtray86/personal-fi-frontend' target="_blank">Frontend Repo</RepoLink>|
                         <RepoLink href= 'https://github.com/jtray86/personal-fi-backend' target="_blank">Backend Repo</RepoLink>
                     </Discription>
@@ -54,6 +54,7 @@ function Portfolio() {
                 <Skills> CSS </Skills> 
                 <Skills> PostgreSQL</Skills>
         </SkillsContanier>
+        <Empty></Empty>
         </>
     );
   }
@@ -69,7 +70,7 @@ const CardContainer = styled.div`
 const Card = styled.div`
     
     width: 40%;
-    height: 20rem;
+    
     border: #78ebbd solid 1px;
     padding: 10px;
     box-shadow: 5px 5px 20px 2px #44cfa5;
@@ -132,4 +133,8 @@ const RepoLink= styled.a`
     :hover{
         color: rgb(1, 27, 59)
     }   
+`
+const Empty= styled.div`
+    height: 10rem;
+    width: 100%
 `

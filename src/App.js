@@ -9,7 +9,6 @@ import Portfolio from "./Portfolio";
 import About from "./About";
 import Header from "./Header";
 import Contact from "./Contact";
-import styled from "styled-components";
 import './App.css';
 
 

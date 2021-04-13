@@ -7,7 +7,7 @@ function Home() {
     return (
       <Container>
         <Intro>
-          <h2 style={{textDecoration: "underline overline"}}>Jen Tracy</h2>
+          <h2 style={{textDecoration: "underline", fontSize: '30px'}}>Jen Tracy</h2>
           <h4>FULL STACK SOFTWARE ENGINEER</h4>
           <SocialContainer>
             <SocialLink href="https://www.linkedin.com/in/jen-tracy-a874273a/" target="_blank"> 

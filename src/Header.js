@@ -4,7 +4,7 @@ import styled from "styled-components";
 
 function Header() {
     const history = useHistory()
-    
+
 
 
     return (
@@ -41,18 +41,20 @@ const Siteheader =styled.header`
 
     const Ulnav = styled.ul`
     list-style-type: none;
-    float: right
+    float: right;
+    margin-right: 10%
     `;
 
     const Linav = styled.li`
     display: inline;
     padding: 1rem;
-    
+    font-size: large;
 
     `;
     const H1 = styled.h1`
     display: inline;
-    padding-left: 4rem
+    padding-left: 10%;
+    font-size: 50px;
     
 
     `

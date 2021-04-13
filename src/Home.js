@@ -11,9 +11,11 @@ function Home() {
           <h4>FULL STACK SOFTWARE ENGINEER</h4>
           <SocialContainer>
             <SocialLink href="https://www.linkedin.com/in/jen-tracy-a874273a/" target="_blank"> 
+                <span>Linkedin</span>
                 <LinkedInIcon style={{ fontSize: 40 }} />
             </SocialLink>
             <SocialLink href="https://github.com/jtray86" target="_blank"> 
+                <span>Github</span>
                 <GitHubIcon fontSize="large"/>
             </SocialLink>
         </SocialContainer>
@@ -72,6 +74,9 @@ const ImageHome = styled.img`
     width: 35px;
     height: 35px;
     
+    span{
+      display: none
+  }
    
 
 `

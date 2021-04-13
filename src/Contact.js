@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
+import { SpeakerNotes } from "@material-ui/icons";
 
 
 function Contact() {
@@ -11,10 +12,10 @@ function Contact() {
         <DiscriptionP>Currently looking for new opportunities. Whether you have a question or just want to say hi. Feel free to send me an email or connect on Linkedin</DiscriptionP>
         <EmailLink href="mailto: jenniferetracy@gmail.com">JenniferETracy@gmail.com</EmailLink>
         <SocialContainer>
-            <SocialLink href="https://www.linkedin.com/in/jen-tracy-a874273a/" target="_blank"> 
+            <SocialLink href="https://www.linkedin.com/in/jen-tracy-a874273a/" target="_blank"> <span>Linkedin</span>
                 <LinkedInIcon style={{ fontSize: 40 }} />
             </SocialLink>
-            <SocialLink href="https://github.com/jtray86" target="_blank"> 
+            <SocialLink href="https://github.com/jtray86" target="_blank">     <span>Github</span>
                 <GitHubIcon fontSize="large"/>
             </SocialLink>
         </SocialContainer>
@@ -81,6 +82,10 @@ const SocialLink = styled.a `
     overflow: hidden;
     width: 35px;
     height: 35px;
+
+    span{
+        display: none
+    }
     
    
 

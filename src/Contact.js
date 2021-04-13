@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
-import { SpeakerNotes } from "@material-ui/icons";
+
 
 
 function Contact() {

@@ -10,7 +10,7 @@ function About() {
             <AboutContent>
                 <h1 style={{color: '#78ebbd'}}>Software Engineer</h1>
                 <p>Full Stack software developer with experience in Ruby on Rails, React, and JavaScript with a Theatre background. Possesses strong skills in team collaboration, critical thinking, and creative problem solving. I am constantly seeking to innovate and master new skills.</p>
-                <p>While away from my desk, I enjoy spending time with my incredible family, crocheting, sewing, and hiking; when i have time to get out of the city.</p>
+                <p>While away from my desk, I enjoy spending time with my incredible family, discussing personal finance, crocheting, sewing, and hiking; when i have time to get out of the city.</p>
             </AboutContent>
         </Grid>
         <Grid>

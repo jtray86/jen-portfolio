@@ -27,7 +27,7 @@ function Portfolio() {
                         <h3 style={{display: "inline"}}>The Pass</h3>
                         <Language>React.js</Language>
                         <Language>Rails API</Language>
-                        <p>A travel-social App for gay or male presenting queer people and straight/queer women to meet and plan travel togther.</p>
+                        <p>A travel-social app for gay or male presenting queer people and straight/queer women to meet and plan travel togther.</p>
                         <RepoLink href='https://github.com/jtray86/The-Pass-Frontend' target="_blank">Frontend Repo</RepoLink>|
                         <RepoLink href='https://github.com/jtray86/the-pass-backend' target="_blank">Backend Repo</RepoLink>
                     </Discription>

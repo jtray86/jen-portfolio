@@ -9,7 +9,7 @@ function Contact() {
     <Container>
         <h2>Get In Touch</h2>
         <DiscriptionP>My Inbox is always open.</DiscriptionP>
-        <DiscriptionP>Currently looking for new opportunities. Whether you have a question or just want to say hi. Feel free to send me an email or connect on Linkedin</DiscriptionP>
+        <DiscriptionP>Currently looking for new opportunities. Whether you have a question or just want to say hi, feel free to send me an email or connect on Linkedin</DiscriptionP>
         <EmailLink href="mailto: jenniferetracy@gmail.com">JenniferETracy@gmail.com</EmailLink>
         <SocialContainer>
             <SocialLink href="https://www.linkedin.com/in/jen-tracy-a874273a/" target="_blank"> <span>Linkedin</span>

@@ -32,14 +32,15 @@ export default Home
 
 const ImageHome = styled.img`
   opacity: 0.3;
-  width: 100%
+  width: 100%;
+  
   `
 
   const ImageContaner= styled.div`
     position:relative;
     float: right;
-    height: 100%;
-    width: 45%;
+    height: 400 rem;
+    width: 35%;
 
   :after {
     width:45%;
@@ -53,7 +54,8 @@ const ImageHome = styled.img`
   
   `
   const Container = styled.div`
-    margin: 5%;
+    margin: 8%;
+    margin-top: 0;
     display: flex;
   `
 

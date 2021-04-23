@@ -54,7 +54,10 @@ function Portfolio() {
                 <Skills> CSS </Skills> 
                 <Skills> PostgreSQL</Skills>
         </SkillsContanier>
-        <Empty></Empty>
+        <PortfolioCode>
+            <p style ={{paddingTop: '3rem'}}>Built with React and custom Styled Components</p>
+            <RepoLink href= 'https://github.com/jtray86/jen-portfolio' target="_blank">Source Code</RepoLink>
+        </PortfolioCode>
         </>
     );
   }
@@ -134,7 +137,9 @@ const RepoLink= styled.a`
         color: rgb(1, 27, 59)
     }   
 `
-const Empty= styled.div`
+const PortfolioCode= styled.div`
     height: 10rem;
-    width: 100%
+    width: 100%;
+    color: #d7f7ed;
+    text-align: center
 `

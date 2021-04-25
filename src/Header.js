@@ -12,18 +12,15 @@ function Header() {
             <H1>Jen Tracy</H1>
            
                 <Ulnav>
-                {/* <Linav>
-                    <Link onClick={() =>history.push("/")}> Home </Link>
-                </Linav> */}
-                <Linav>
-                    <Link onClick={() =>history.push("/about")}>About</Link>
-                </Linav>
-                <Linav>
-                    <Link onClick={() =>history.push("/portfolio")}>Portfolio</Link>
-                </Linav>
-                <Linav>
-                    <Link onClick={() =>history.push("/contact")}>Contact</Link>
-                </Linav>
+                    <Linav>
+                        <Link onClick={() =>history.push("/about")}>About</Link>
+                    </Linav>
+                    <Linav>
+                        <Link onClick={() =>history.push("/portfolio")}>Portfolio</Link>
+                    </Linav>
+                    <Linav>
+                        <Link onClick={() =>history.push("/contact")}>Contact</Link>
+                    </Linav>
                 </Ulnav>
            
         </Siteheader> 

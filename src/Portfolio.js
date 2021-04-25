@@ -33,16 +33,6 @@ function Portfolio() {
                     </Discription>
                 </Video>
             </Card>
-            {/* <Card>
-                <Video>
-                    <YoutubeEmbed embedId="vaaAz0gT8Ek" />
-                    <Discription>
-                        <h3 style={{display: "inline"}}>On Broadway</h3>
-                        <Language>Ruby on Rails</Language>
-                        <p></p>
-                    </Discription>
-                </Video>
-            </Card> */}
         </CardContainer>
         <SkillsContanier>
                 <h2 style={{textDecoration: "underline"}}>Skills</h2>
